@@ -17,7 +17,7 @@ npm install
  // 执行
  node index.js
 ```
-output
+## Output
 ```
 第1个没有使用的类名: test  所在目录： E:\xxxx\wx-xxx\pages\xxxxx\index.wxss
 第2个没有使用的类名: name  所在目录： E:\xxxx\wx-xxx\pages\xxxxx\index.wxss
