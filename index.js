@@ -1,8 +1,8 @@
 const fs = require('fs');
 const glob = require('glob');
 
-const wxssPath = 'E:/aoscritp/wx-sign/pages/**/*.wxss'; // wxss文件的路径
-const wxmlPath = 'E:/aoscritp/wx-sign/pages/**/*.wxml'; // wxml文件的路径
+const wxssPath = 'E:/xxxx/wx-xxx/pages/**/*.wxss'; // wxss文件的路径
+const wxmlPath = 'E:/xxxx/wx-xxx/pages/**/*.wxml'; // wxml文件的路径
 
 const wxssFiles = glob.sync(wxssPath); // 获取所有的wxss文件
 const wxmlFiles = glob.sync(wxmlPath); // 获取所有的wxml文件
