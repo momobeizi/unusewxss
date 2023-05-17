@@ -11,9 +11,11 @@ npm install
 ## Examples
 ```js
  // 编辑index.js中的wxssPath,wxssPath路径
+ //注意/**/*.wxss不需要修改，只修改前面的文件路径
+
  const wxssPath = 'E:/xxxx/wx-xxx/pages/**/*.wxss'; // wxss文件的路径
  const wxmlPath = 'E:/xxxx/wx-xxx/pages/**/*.wxml'; // wxml文件的路径
-
+ 
  // 执行
  node index.js
 ```
